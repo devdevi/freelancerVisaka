@@ -43,6 +43,7 @@ body {
     text-decoration: none;
 }
 
+
 /*navegador */
 #navMenu{/*log*/ /*barra de navegacion menu*/
   position:fixed;
@@ -350,15 +351,32 @@ hr{
 }
    
 /*formulario contacto BOTON ENVIAR*/
+input, textarea  {
+  padding:1em;
+  border:0;
+  border-bottom: .3px solid #eef;
+  text-align: left;
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-right: 0;
+  padding-left: 0;
 
-
-label, .placeholder{
-  padding: 40px;
-  padding-bottom: 50px;
-  line-height: 50px;
-  text-align: justify;
-  font-size: 30px;
 }
+input, textarea{
+   width: 50%;
+
+}
+#formInformacion{
+  width: 100%;
+  text-align: center;
+}
+#formInformacion .send{
+  position: relative;
+  right: 22%;
+}
+
+
 
 /*SOCIAL MEDIA*/
 
@@ -430,3 +448,11 @@ h4{
 }
 footer p{
 }
+#sendF{
+  border-style: none;
+  border-bottom: 1px solid black;
+
+}
+
+
+
